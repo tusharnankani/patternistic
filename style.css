@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1faee;
+}
+
+.item {
+    background-color: #1d355750;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    animation: moveAround 1.8s ease-in-out infinite;
+}
+
+@keyframes moveAround {
+    0% {
+        transform: translate(4px, 4px);
+        transform: scale(0.9);
+    }
+    25% {
+        transform: translate(-4px, 4px);
+    }
+    50% {
+        transform: translate(4px, -4px);
+        transform: scale(0.95);
+    }
+    75% {
+        transform: translate(-4px, -4px);
+    }
+    100% {
+        transform: translate(4px, 4px);
+        transform: scale(1);
+    }
+}
