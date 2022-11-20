@@ -11,8 +11,6 @@ body {
 
 .item {
     background-color: #1d355750;
-    height: 0.5rem;
-    width: 0.5rem;
     border-radius: 50%;
     position: absolute;
     animation: moveAround 1.8s ease-in-out infinite;
