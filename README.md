@@ -7,7 +7,7 @@
 <br />
 
 <p align="center">&nbsp;·&nbsp; the storm before the <a href="https://github.com/tusharnankani/resonating-circles">calm</a> with patterns and trails &nbsp;·&nbsp;</p>
-<p align="center"><a href="https://tusharnankani.github.io/patternistic"></a></p>
+<p align="center"><a href="https://tusharnankani.github.io/patternistic">patternistic</a></p>
 
 <br />
 <br />
