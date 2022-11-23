@@ -1,32 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-body {
+main {
     width: 100vw;
     height: 100vh;
     background-color: #f1faee;
+    overflow: hidden;
 }
 
 .item {
     background-color: #1d355750;
     border-radius: 50%;
     position: absolute;
-    animation: moveAround 1.8s ease-in-out infinite;
+    animation: moveAround 1s ease-in-out infinite;
 }
 
 @keyframes moveAround {
     0% {
         transform: translate(4px, 4px);
-        transform: scale(0.9);
+        transform: scale(0.8);
     }
     25% {
         transform: translate(-4px, 4px);
     }
     50% {
         transform: translate(4px, -4px);
-        transform: scale(0.95);
+        transform: scale(0.9);
     }
     75% {
         transform: translate(-4px, -4px);
@@ -34,5 +39,76 @@ body {
     100% {
         transform: translate(4px, 4px);
         transform: scale(1);
+    }
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    overflow: hidden;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgba(157, 157, 157, 0.096);
+    position: absolute;
+    padding: 1.5rem 4rem;
+    font-weight: 300;
+    opacity: 0.2;
+    transition: all 0.25s ease-in;
+    filter: blur(1px);
+    box-shadow: 1px 5px 50px -10px #1d355725;
+}
+
+header:hover {
+    opacity: 1;
+    transition: all 0.4s ease-in;
+    filter: none;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+main p {
+    position: absolute;
+    top: calc(100vh / 2);
+    padding: 0 3rem;
+}
+
+.none {
+    display: none;
+}
+
+@media (max-width: 1080px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 0.8rem;
+        padding: 0;
+        opacity: 1;
+        filter: blur(5px);
+    }
+
+    .input-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .none {
+        display: block;
     }
 }
