@@ -14,6 +14,8 @@
 <br />
 <br />
 
+Here is the [complete log explaining my thought process](https://undirected-graph.netlify.app/posts/patternistic).
+
 ##### Motivation
 
 - To build something pattern-istic, but turned out something else.
