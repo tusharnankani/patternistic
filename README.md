@@ -14,7 +14,7 @@
 <br />
 <br />
 
-Here is the [complete log explaining my thought process](https://undirected-graph.netlify.app/posts/patternistic).
+Here is the [complete log explaining my thought process](https://blog.tusharnankani.com/posts/patternistic).
 
 ##### Motivation
 
